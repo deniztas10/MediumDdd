@@ -6,7 +6,7 @@ namespace MediumDdd.Domain.Users
 {
     public class User // TODO:: Aggregete Root
     {
-        public virtual Guid? TenantId { get; private set; }
+        public virtual Guid Id { get; private set; }
 
         public virtual string UserName { get; private set; }
 

@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
+    <PackageReference Include="Abp" Version="5.9.0" />
+    <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
   </ItemGroup>
 
 </Project>
